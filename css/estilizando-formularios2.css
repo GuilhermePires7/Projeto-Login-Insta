@@ -1,0 +1,66 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url('../imagens/Instagram-Gradient-HD-Wallpaper-7187.png')no-repeat top left;
+    text-align: center;
+}
+.insta {
+    margin-top: -85px;
+}
+#container {
+    margin: 0px auto;
+    margin-top: 120px;
+    width: 450px;
+    height: 350px;
+    background-color: rgba(255,255,255,0.3);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+#container img {
+    width: 204px;
+    height: 126px;
+    
+}
+#container img.img {
+    
+    margin-top: -130px;
+    
+    width: 250px;
+    height: 250px;
+    
+}
+
+input {
+    width: 80%;
+    font-size: 18px;
+    height: 40px;
+    margin-top: -10px;
+    margin-bottom: 1.5em;
+    cursor: pointer;
+    border: none;
+    padding-left: 40px;
+    background: #fff;
+    
+   
+}
+input.email {
+    background: #fff url('../imagens/icone-usuario.png') no-repeat;
+    background-position: 9.5px;
+}
+input.senha {
+    background: #fff url('../imagens/icone-cadeado.png') no-repeat;
+    background-position: 9.5px;
+}
+input.submit {
+    background-color: #f53249;
+    color: white;
+    width: 80%;
+    padding: 0px;
+    -webkit-transition-duration: 0.4s; /* Duração da transição */
+    transition-duration: 2.5s;
+}
+.submit:hover {
+    background-color: #f4b608; 
+    color: white;  
+}
